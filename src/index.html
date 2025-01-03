@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link href="./reset.css" rel="stylesheet" />
+</head>
+<body>
+    <h1>Form Example</h1>
+    <p>This is a small demo to capture MVP form element interactions</p>
+    <hr style="margin: 1rem 0;"/>
+    
+    <h2>Normal form</h2>
+    <form>
+        <my-input name="lightFirstName"/>
+    </form>
+    
+    <hr style="margin: 1rem 0;"/>
+
+    <h2>Shadow form</h2>
+    <my-form>
+        <my-input name="shadowFirstName"/>
+    </my-form>
+
+    <script type="module" src="./index.mjs" />
+</body>
+</html>
